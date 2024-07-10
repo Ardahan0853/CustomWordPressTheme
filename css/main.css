@@ -1,0 +1,937 @@
+.body{
+    background-color: #0034B5;
+}
+
+.container-custom{
+    min-height: 720px !important;
+    background-image: url('../images/MainImage.jpeg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    
+}
+
+.navbar-brand{
+    display: flex !important;
+    align-items: center;
+}
+
+.navbar-wrapper{
+    font-family: 'Oswald', sans-serif;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.navbar-brand p {
+    margin: 0;
+}
+
+.div-toggle{
+    width: 47px;
+    height: 22px;
+    border: 1px solid #052677;
+    border-radius: 26px;
+    margin-left: 2px;
+    margin-right: 2px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.rounded-left{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #052677;
+    margin-left: 2px;
+}
+
+
+
+.navbar .logo-image {
+    position: absolute;
+    width: 105px;
+    height: 160px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Adjust as needed */
+    z-index: 10; /* Ensure it is above other elements */
+}
+
+.nav-link{
+    color: #052677;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 1vw;
+    text-transform: uppercase;
+}
+
+.nav-logo-item{
+    width: 104px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.title{
+    font-family: "Anton", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 5vw;
+    text-align: center;
+    margin-top: 1em;
+}
+.join-us-btn{
+    background: #E6224B;
+    padding: 1em 5em; /* Optional: Adjust padding */
+    color: #fff; /* Optional: Button text color */
+    border: none; /* Optional: Remove button border */
+    border-radius: 12px; /* Optional: Add border radius */
+    cursor: pointer; /* Optional: Add cursor style */
+    font-family: 'Oswald', sans-serif;
+    margin-top: 0.5em;
+    z-index: 2;
+}
+
+.navbar-nav-left{
+    margin-left: 1em;
+}
+
+.navbar-nav-right{
+    margin-right: 3em;
+}
+
+.content-p{
+    max-width: 800px;
+    font-family: "Onest", sans-serif;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 15;
+    z-index: 20;
+}
+
+.dalga-div{
+    background-image: url('../images/dalgaImage.png');
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-custom2{
+    background: linear-gradient(to bottom, #00174F 0%, #00174F 70%, #0034B5 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10em;
+}
+.p-div{
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+}
+
+.image-item-div{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    
+}
+
+.item-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.tournament-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 6em;
+}
+
+.tournament-h1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-family: "Anton", sans-serif;
+    color: white;
+    margin-bottom: 2em;
+}
+
+.tournament-item, .tournament-item2{
+    width: 450px;
+}
+
+.item-date{
+    font-family: 'Onest', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.item-title{
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    color: white;
+    margin: 0.5em 0;
+}
+.item-desc{
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.tournament-d-flex{
+    gap: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.item-btn{
+    margin-top: 1em;
+    padding: 1em 3em;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.button-arrow{
+    width: 21px;
+}
+
+.container-custom3{
+    background: #0034B5;
+    padding: 15em 6em 0;
+}
+
+.custom-3-h1{
+    font-family: 'Anton', sans-serif;
+    font-weight: 400;
+    line-height: 73.3px;
+    text-align: left;
+    color: white;
+    font-size: 70px;
+
+}
+
+.custom-3-p{
+    font-family: 'Onest', sans-serif;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+}
+
+.col-item{
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+.row-d-flex{
+    gap: 3em;
+}
+
+.container-custom4{
+    background: #0034B5;
+    padding-top: 7em;
+    position: relative;
+}
+
+.image-item-div2{
+    width: 180px;
+    height: 180px;
+    flex-shrink: 0;
+    
+}
+.item-image2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+
+.tournament-item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.tournament-d-flex2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tournament-person-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 2em;
+}
+
+.tournament-person-info h3,p{
+ margin: 0;
+ padding: 0;
+}
+.tournament-person-info h3{
+    border-right: 2px solid white;
+    font-family: Anton;
+    font-weight: 400;
+    line-height: 33.51px;
+    text-align: left;
+    color: white;
+}
+.tournament-person-info p{
+    font-family: Onest;
+    font-weight: 600;
+    line-height: 22.4px;
+    text-align: left;
+    color: white;
+
+}
+
+.ters-dalga{
+    background-image: url("../images/DalgaTers.png");
+    width: 100%;
+    height: 150px;
+    position: absolute;
+}
+
+.container-custom5{
+    background: #00174F;
+    padding: 15em 0;
+}
+
+.container-custom6{
+    
+    min-height: 780px !important;
+    background-image: url('../images/Stadium2.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    
+}
+
+
+.container-custom7{
+    background-color: #00174F;
+    min-height: 700px;
+    padding-top: 10em;
+}
+
+
+.products-d-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-item-div3{
+    max-width: 550px;
+    height: 320px;
+}
+
+.item-image3{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.product-item{
+    gap: 10px;
+    display: flex;
+}
+
+.product-info1, .product-info{
+    display: flex;
+}
+
+.product-info1{
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2em;
+}
+
+.product1-name{
+    font-family: Anton;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 73.3px;
+    text-align: left;
+    color: white;
+    width: 300px;
+}
+
+.product1-role{
+    font-family: Onest;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: left;
+    color: white;
+    width: 280px;
+
+}
+.product-item-child{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-info{
+    margin-top: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.product-btn{
+    padding: 1em 3em;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.product-name{
+    font-family: Anton;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.2px;
+    text-align: left;
+    color: white;
+
+}
+
+.container-custom8{
+    background: linear-gradient(180deg, #00174F 34.48%, #0034B5 100%);
+    padding-top: 15em;
+    min-height: 500px;
+    position: relative;
+}
+.ters-dalga2{
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    z-index: 2;
+}
+
+.dont-miss{
+    margin-bottom: 4em;
+}
+
+.dont-miss-h1{
+    font-family: Anton;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 73.3px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0.25em;
+}
+.dont-miss-p{
+    font-family: Onest;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25.2px;
+    text-align: center;
+    color:white;
+}
+
+.dont-miss-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+
+
+
+input{
+    min-width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 0 10px 23px;
+    border: none;
+    
+}
+
+::placeholder{
+    color: #0034B5;
+    font-family: Oswald;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16.76px;
+    text-align: left;
+    
+
+}
+
+.dont-miss-btn{
+    font-family: Oswald;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18.85px;
+    text-align: center;
+    padding: 13px 40px;
+    background-color: #E6224B;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.container-custom9{
+    position: relative;
+    padding-top: 10em;
+    min-height: 600px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+.ball-div{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ball{
+    
+    
+    width: 80px;
+    height: 80px;
+    
+}
+
+.d-flex-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.footer-flex-item-child{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    
+    height: 100%;
+}
+.footer-flex-item-child1{
+    width: 100%;
+}
+
+.footer-flex-item-child2 p{
+    font-family: Onest;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+    color: #00174F;
+}
+
+.footer-flex-item-child1 ul{
+    gap: 10px;
+    display: flex;
+    list-style: none;
+    
+    padding: 0;
+    justify-content: space-between;
+}
+.footer-flex-item-child1 ul li{
+    font-family: Oswald;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18.85px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #052677;
+
+}
+
+.footer-flex-item-child2{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.careers{
+    display: flex;
+    gap: 10px;
+    
+
+}
+.careers h4{
+    font-family: Onest;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+    color: #00174F;
+    border-right: 1px solid #00174F;
+    padding-right: 5px;
+}
+
+.logo-footer{
+    width: 70px;
+}
+
+.careers h4:last-child{
+    border-right: none;
+}
+
+.footer-flex-item-child-3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+    height: 100%;
+    
+}
+
+.footer-flex-item-child-3 h1{
+    font-family: Oswald;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 18.85px;
+    text-align: right;
+    color: #00174F;
+
+}
+.logos{
+    width: 120px;
+    padding-bottom: 10px;
+}
+
+.footer-flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 110px;
+}
+
+.footer-flex-item{
+    height: 100%;
+}
+
+.custom-nav-item{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+@media (min-width: 991px){
+    
+    .navbar{
+        margin: 0 auto;
+        position: relative;
+        border-radius: 10px;
+    }
+    .container-flex{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .navbar-wrapper{
+        margin-top: 3em;
+    }
+    .container-custom{
+        padding-top: 2.5em;
+        padding-bottom: 8em;
+    }
+    .twitter-logo, .instagram-logo{
+        width: 22.02px;
+        height: 19.94px;
+    }
+    
+}
+
+
+@media(max-width: 1600px){
+    .tournament-div{
+        align-items: flex-start;
+        padding: 0 4em;
+    }
+    .container-custom3{
+        padding: 5em 4em 0;
+    }
+    
+}
+
+@media(max-width: 1425px){
+    .tournament-div{
+        align-items: flex-start;
+        padding: 0 3em;
+    }
+    .tournament-d-flex{
+        gap: 20px;
+    }
+    .container-custom3{
+        padding: 5em 3em 0;
+    }
+    .row-d-flex{
+        
+        flex-direction: column;
+        align-items: center;
+    }
+    .custom-3-h1 br{
+        display: none;
+    }
+    .col-item-width{
+        width: 100%;
+        flex-direction: column;
+    }
+}
+@media(max-width: 1060px){
+    .tournament-div{
+        
+        padding: 0 4em;
+    }
+    .tournament-d-flex{
+        gap: 20px;
+        flex-direction: column;
+        
+    }
+    .tournament-item{
+        width: auto;
+    }
+    .footer-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        width: 100%;
+    }
+    .footer-flex-item-child-3{
+        align-items: center;
+    }
+}
+
+@media(max-width: 1510px){
+    .products-d-flex{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .product1-name{
+        width: auto;
+    }
+    .product1-role{
+        width: auto;
+        margin-bottom: 2em;
+    }
+}
+
+@media(max-width: 1350px){
+    .tournament-div{
+       
+        padding: 0 4em;
+    }
+    .container-custom3{
+        padding: 5em 4em 0;
+    }
+    .tournament-d-flex2{
+        justify-content: center;
+        gap: 20px;
+    }
+    .product-item{
+        display: block;
+        margin: 1em 0;
+    }
+    .products-d-flex{
+        padding: 0 3em;
+    }
+    .product-info1{
+        width: 500px;
+    }
+    .product-item-child{
+        margin-bottom: 4em;
+    }
+    
+}
+@media(max-width: 990px){
+    
+    .tournament-d-flex2{
+        
+        flex-direction: column;
+        align-items: center;
+        
+        gap: 50px;
+    }
+    input{
+        min-width: 0;
+        
+    }
+    .dont-miss-input{
+        justify-content: center;
+    }
+    
+}
+@media(max-width: 512px){
+    
+    .image-item-div{
+        height: 120px;
+    }
+    .item-image{
+        width: 300px;
+    }
+    .tournament-item, .tournament-item2{
+        width: auto;
+    }
+    .tournament-item2{
+        flex-direction: column;
+    }
+    .dont-miss-h1{
+        font-size: 50px;
+    }
+    .image-item-div2{
+        width: 140px;
+        height: 140px;
+    }
+    .tournament-person-parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .tournament-person-info h3{
+        border-right: none;
+        text-align: center;
+        font-size: 20px;
+    }
+    .tournament-person-info p{
+        border-right: none;
+        text-align: center;
+    }
+    .tournament-person-info{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .item-btn{
+        margin-bottom:2em;
+    }
+    .product1-name{
+        font-size: 50px;
+    }
+    .footer-flex-item-child1 ul li{
+        font-size: 15px;
+    }
+    .d-flex-footer{
+        padding: 0 1em;
+    }
+    
+}
+
+@media (max-width:990px){
+    .container-flex {
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-link{
+        font-size: 2vw;
+    }
+    .navbar-nav-left{
+        margin: 0;
+    }
+    .navbar-nav-right{
+        margin: 0;
+    }
+    .nav-logo-item{
+        display: none;
+    }
+    .navbar .logo-image{
+        width: 85px;
+        height: 140px;
+    }
+    .img-div img {
+        opacity: 0;
+        transition: opacity 0s ease-in;
+    }
+    
+    /* Animation to fade in the image */
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+    
+    /* When the navbar collapses, apply the animation */
+    .navbar-collapse.show .img-div img {
+        animation: fadeIn 1s forwards;
+        animation-delay: 0.4s; /* Delay the start of the animation by 1 second */
+    }
+}
+
+
+@media (max-width:800px){
+    .p-div{
+        padding: 2em;
+    }
+    .content-p{
+        padding: 0 2em;
+    }
+}
+
+@media (max-width:1478px){
+    .tournament-d-flex2{
+        justify-content: center;
+        gap: 30px
+    };
+}
